@@ -1,0 +1,59 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/grindingPropsByType",
+    "value": {
+      "bloodbread-spelt-*": {
+        "groundStack": {
+          "type": "item",
+          "code": "expandedfoods:breadcrumbs-spelt",
+          "quantity": 4
+        }
+      },
+      "bloodbread-rye-*": {
+        "groundStack": {
+          "type": "item",
+          "code": "expandedfoods:breadcrumbs-rye",
+          "quantity": 4
+        }
+      },
+      "bloodbread-rice-*": {
+        "groundStack": {
+          "type": "item",
+          "code": "expandedfoods:breadcrumbs-rice",
+          "quantity": 4
+        }
+      },
+      "bloodbread-flax-*": {
+        "groundStack": {
+          "type": "item",
+          "code": "expandedfoods:breadcrumbs-flax",
+          "quantity": 4
+        }
+      },
+      "bloodbread-cassava-*": {
+        "groundStack": {
+          "type": "item",
+          "code": "expandedfoods:breadcrumbs-cassava",
+          "quantity": 4
+        }
+      },
+      "bloodbread-amaranth-*": {
+        "groundStack": {
+          "type": "item",
+          "code": "expandedfoods:breadcrumbs-amaranth",
+          "quantity": 4
+        }
+      },
+      "bloodbread-sunflower-*": {
+        "groundStack": {
+          "type": "item",
+          "code": "expandedfoods:breadcrumbs-sunflower",
+          "quantity": 4
+        }
+      },
+	},
+    "side": "server",
+    "file": "butchering:itemtypes/food/bloodbread.json"
+  }
+]

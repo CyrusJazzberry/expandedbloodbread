@@ -1,0 +1,66 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/class",
+    "value": "ExpandedFood",
+    "side": "server",
+    "file": "butchering:itemtypes/food/bloodbread.json"
+  },
+  {
+    "op": "remove",
+    "path": "/nutritionPropsByType/*-flax-charred",
+    "side": "server",
+    "file": "butchering:itemtypes/food/bloodbread.json"
+  },
+  {
+    "op": "remove",
+    "path": "/nutritionPropsByType/*-flax-partbaked",
+    "side": "server",
+    "file": "butchering:itemtypes/food/bloodbread.json"
+  },
+  {
+    "op": "remove",
+    "path": "/nutritionPropsByType/*-flax-perfect",
+    "side": "server",
+    "file": "butchering:itemtypes/food/bloodbread.json"
+  },
+  {
+    "op": "remove",
+    "path": "/nutritionPropsByType/*-rice-charred",
+    "side": "server",
+    "file": "butchering:itemtypes/food/bloodbread.json"
+  },
+  {
+    "op": "remove",
+    "path": "/nutritionPropsByType/*-rice-partbaked",
+    "side": "server",
+    "file": "butchering:itemtypes/food/bloodbread.json"
+  },
+  {
+    "op": "remove",
+    "path": "/nutritionPropsByType/*-rice-perfect",
+    "side": "server",
+    "file": "butchering:itemtypes/food/bloodbread.json"
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-charred/saturation",
+    "side": "server",
+    "value": 100,
+    "file": "butchering:itemtypes/food/bloodbread.json"
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-partbaked/saturation",
+    "side": "server",
+    "value": 70,
+    "file": "butchering:itemtypes/food/bloodbread.json"
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-perfect/saturation",
+    "side": "server",
+    "value": 160,
+    "file": "butchering:itemtypes/food/bloodbread.json"
+  }
+]
