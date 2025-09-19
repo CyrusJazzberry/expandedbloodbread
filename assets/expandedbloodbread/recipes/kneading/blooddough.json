@@ -5,5 +5,22 @@
 		{inputs: [{ type: "item", code: "game:flour-*", allowedVariants: [ "flax", "millet", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower" ], "name": "type", quantity: 1 }]}
 	],
 	output: { type: "item", code: "butchering:blooddough-{type}", stackSize: 1}
+ },
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "butchering:bloodportion",  quantity: 50 }]},
+		{inputs: [{ type: "item", code: "game:flour-*", allowedVariants: [ "flax", "millet", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower" ], "name": "type", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:breadstarter-wild", quantity: 10 }]}
+	],
+	output: { type: "item", code: "butchering:blooddough-{type}", stackSize: 1}
+ },
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "butchering:bloodportion",  quantity: 50 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }]},
+		{inputs: [{ type: "item", code: "game:flour-*", allowedVariants: [ "flax", "millet", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower" ], "name": "type", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:breadstarter-wild", quantity: 10 }]}
+	],
+	output: { type: "item", code: "butchering:blooddough-{type}", stackSize: 1}
  }
 ]

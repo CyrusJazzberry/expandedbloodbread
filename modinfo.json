@@ -7,7 +7,7 @@
   "requiredOnServer": true,
   "description" : "Butchering's bloodbread and blooddough can be used for Expanded Foods recipes",
   "authors": ["CyrusJazzberry"],
-  "version": "1.0.5",
+  "version": "1.0.6",
   "dependencies": { 
 	"game": "1.20.4",
 	"survival": "",
