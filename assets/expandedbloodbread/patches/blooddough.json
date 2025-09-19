@@ -43,6 +43,27 @@
     "file": "butchering:itemtypes/food/blooddough.json"
   },
   {
+    "op": "replace",
+    "path": "/nutritionPropsWhenInMealByType/*-flax/satiety",
+    "side": "server",
+    "value": 120,
+    "file": "butchering:itemtypes/food/blooddough.json"
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsWhenInMealByType/*-rice/satiety",
+    "side": "server",
+    "value": 280,
+    "file": "butchering:itemtypes/food/blooddough.json"
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsWhenInMealByType/*/satiety",
+    "side": "server",
+    "value": 240,
+    "file": "butchering:itemtypes/food/blooddough.json"
+  },
+  {
     "op": "addmerge",
     "path": "/0/ingredients/0/inputs/-",
     "value": {
