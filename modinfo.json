@@ -5,13 +5,13 @@
   "side": "universal",
   "requiredOnClient": true,
   "requiredOnServer": true,
-  "description" : "Butchering's bloodbread and blooddough can be used for Expanded Foods recipes",
+  "description" : "Butchering bloodbread and Expanded Foods compatibility",
   "authors": ["CyrusJazzberry"],
-  "version": "1.0.6",
+  "version": "1.0.7",
   "dependencies": { 
-	"game": "1.20.4",
+	"game": "1.21.5",
 	"survival": "",
-	"expandedfoods": "1.7.4",
-	"butchering": "1.8.0"
+	"expandedfoods": "*",
+	"butchering": "*"
   }
 }
